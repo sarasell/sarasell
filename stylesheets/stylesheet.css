@@ -1,27 +1,47 @@
 h1 {
-  font-size: 50px;
+  font-family: 'Lato','Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
+  font-size: 50px;
+  color: #F2C063;
+  text-align: center;
 }
-
-
-footer {
-  color: #f2f2f2;
+h2{
+  color: #F2E3D0;
+  text-align: center;
+  font-family: 'Josefin Sans';
 }
 
 
 body {
   padding: 10px;
-  background: #373737;
+  background: #4F5559;
  }
 
  body p {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #fff;
+  font-family: 'Josefin Sans','Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #C5D1D9;
   font-size: 40px;
+  margin-top: 25%;
   text-align: center;
  }
 
+ footer div {
+  color: #F2C063;
+  text-align: center;
+  min-height: 100%;
+}
 
+ footer div a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: #C5D1D9;
+    font-family: 'Grand Hotel','Lucida Grande','sans-serif';
+ }
+
+footer {
+    margin-top: 100%;
+}
 
 
 

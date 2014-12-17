@@ -26,6 +26,7 @@ body {
  }
 
  footer div {
+  text-decoration: none;
   color: #F2C063;
   text-align: center;
   min-height: 100%;
@@ -37,10 +38,11 @@ body {
   font-size: 25px;
   color: #C5D1D9;
   font-family: 'Grand Hotel','Lucida Grande','sans-serif';
- }
+ }  
 
 footer {
-    margin-top: 100%;
+    margin-top: 70%;
+    text-decoration: none;
 }
 
 

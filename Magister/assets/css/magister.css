@@ -1,12 +1,3 @@
-html {
-	background:#505D6E url(../images/body4.jpg) no-repeat center center fixed; 
-	min-height:100%;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
-}
-
 body {
 	background:transparent;
 	min-height:100%; 	
@@ -15,8 +6,8 @@ body {
 	line-height: 1.5em;
 	font-size:14px;
 	font-family: Helvetica, Arial, sans-serif;
-	color:#fff;
-	color:rgba(255,255,255,.8); 
+	/*color:#fff;
+	color:rgba(255,255,255,.8); */
 	font-weight: normal;
 }
 
@@ -244,33 +235,6 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	width:340px; 
 	margin:0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

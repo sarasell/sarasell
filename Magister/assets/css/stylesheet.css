@@ -1,12 +1,16 @@
-body {
-  background-image: url("img/tweed.png");
+html {
+  background:#505D6E url(.../images/world.jpg) no-repeat center center fixed; 
+  min-height:100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
-h1 {
+.title {
   font-family: 'Lato','Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 50px;
-  color: #F2C063;
   text-align: left;
   padding-left: 20px;
 }
@@ -30,7 +34,6 @@ h2 {
 
  body p {
   font-family: 'Josefin Sans','Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #C5D1D9;
   font-size: 40px;
   text-align: center;
  }

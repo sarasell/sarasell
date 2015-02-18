@@ -1,5 +1,5 @@
 html {
-  background:#505D6E url(.../images/world.jpg) no-repeat center center fixed; 
+  background-image: url(waterfall.jpg); 
   min-height:100%;
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -27,7 +27,8 @@ h2 {
 }
 
 .contact-me p {
-  color: #F2E3D0;
+  color: white;
+  /*#F2E3D0;*/
   font-family: 'Grand Hotel','Lucida Grande', sans-serif;
   font-size: 60px;
 }
@@ -36,6 +37,7 @@ h2 {
   font-family: 'Josefin Sans','Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 40px;
   text-align: center;
+  color: white;
  }
 
 .icons {
@@ -46,6 +48,51 @@ h2 {
   width: 100px;
   height: 100px;
 }
+
+.theme-invert .title,
+.theme-invert .subtitle,
+.theme-invert .tagline { 
+  color: white;
+}
+
+.theme-invert .tagline { 
+ text-shadow: 1px 1px 1px #000; 
+ font-size: 1.6em;
+ }
+
+.theme-invert .btn-default {
+  background: rgba(0,0,0,.6);
+}
+.theme-invert .btn-default:hover,
+.theme-invert .btn-default:focus,
+.theme-invert .btn-default:active,
+.theme-invert .btn-default.active {
+  background: rgba(0,0,0,.8);
+  color:#fff;
+}
+
+.theme-invert .navbar-toggle .icon-bar {
+  background: white;
+}
+.theme-invert .mainmenu .dropdown-menu a { 
+  color: white;
+  font-size: 1em;
+}
+
+.theme-invert .mainmenu .dropdown-menu a:hover { 
+  color: white;
+  font-size: 1em;
+}
+
+.theme-invert .mainmenu .dropdown-menu a:focus { 
+  background: rgba(0,0,0,.6);
+}
+
+.thumbnail .caption p {
+  font-size: 1.5em;
+  color: #575757;
+}
+
  /*footer div {
   text-decoration: none;
   color: #F2C063;
